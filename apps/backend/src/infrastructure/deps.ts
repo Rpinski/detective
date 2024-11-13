@@ -10,20 +10,20 @@ import { Options } from '../options/options';
 import { loadConfig } from './config';
 
 const DEFAULT_ENTRIES = [
-  'src/main.ts',
-  'main.ts',
-  'src/index.ts',
-  'index.ts',
-  'projects/*/src/main.ts',
-  'projects/*/src/index.ts',
-  'packages/*/src/main.ts',
-  'packages/*/src/index.ts',
+  'src/main.tsx?',
+  'main.tsx?',
+  'src/index.tsx?',
+  'index.tsx?',
+  'projects/*/src/main.tsx?',
+  'projects/*/src/index.tsx?',
+  'packages/*/src/main.tsx?',
+  'packages/*/src/index.tsx?',
 ];
 
 const DEFAULT_NX_ENTRIES = [
-  'apps/**/src/main.ts',
-  'libs/**/src/index.ts',
-  'packages/**/src/main.ts',
+  'apps/**/src/main.tsx?',
+  'libs/**/src/index.tsx?',
+  'packages/**/src/main.tsx?',
 ];
 
 let deps: Deps;
